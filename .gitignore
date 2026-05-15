@@ -1,0 +1,24 @@
+# Simulation artifacts
+*.vcd
+*.fst
+*.out
+*.log
+*.jou
+*.pb
+
+# Icarus Verilog / Verilator
+*.vvp
+obj_dir/
+
+# Build directories (Vivado, Quartus, etc.)
+build/
+*.bit
+*.bin
+*.sof
+*.pof
+*.qpf
+*.qsf
+
+# OS generated files
+.DS_Store
+Thumbs.db
