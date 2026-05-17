@@ -1,0 +1,191 @@
+================================================================================
+ Starting SAP-1 Advanced Controller Tracking Test
+================================================================================
+[CONTROLLER] Time: 25000 ns | State: T1 | Opcode: 0000
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 35000 ns | State: T2 | Opcode: 0000
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 45000 ns | State: T3 | Opcode: 0000
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 55000 ns | State: T4 | Opcode: 0000
+             Control Word -> CP:0 EP:0 LM:0 CE:1 LI:1 EI:0 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 65000 ns | State: T5 | Opcode: 0000
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:1 EI:1 LA:0 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 75000 ns | State: T6 | Opcode: 0000
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 85000 ns | State: T1 | Opcode: 0000
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 95000 ns | State: T2 | Opcode: 0000
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 105000 ns | State: T3 | Opcode: 0000
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 115000 ns | State: T4 | Opcode: 0001
+             Control Word -> CP:0 EP:0 LM:0 CE:1 LI:1 EI:0 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 125000 ns | State: T5 | Opcode: 0001
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:1 EI:1 LA:1 EA:0 LB:0 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 135000 ns | State: T6 | Opcode: 0001
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:0 EA:0 LB:1 ALU_CTRL:00 EU:1 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 145000 ns | State: T1 | Opcode: 0001
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 155000 ns | State: T2 | Opcode: 0001
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 165000 ns | State: T3 | Opcode: 0001
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 175000 ns | State: T4 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:1 LB:1 ALU_CTRL:00 EU:0 LO:0
+--------------------------------------------------------------------------------
+ [OUTPUT DISPLAY] Time: 175000 ns | Value -> Decimal:  15 | Hex: 0f
+================================================================================
+[CONTROLLER] Time: 185000 ns | State: T5 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 195000 ns | State: T6 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 205000 ns | State: T1 | Opcode: 1110
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 215000 ns | State: T2 | Opcode: 1110
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 225000 ns | State: T3 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 235000 ns | State: T4 | Opcode: 0010
+             Control Word -> CP:0 EP:0 LM:0 CE:1 LI:1 EI:0 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 245000 ns | State: T5 | Opcode: 0010
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:1 EI:1 LA:1 EA:0 LB:0 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 255000 ns | State: T6 | Opcode: 0010
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:0 EA:0 LB:1 ALU_CTRL:01 EU:1 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 265000 ns | State: T1 | Opcode: 0010
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 275000 ns | State: T2 | Opcode: 0010
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 285000 ns | State: T3 | Opcode: 0010
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 295000 ns | State: T4 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:1 LB:1 ALU_CTRL:00 EU:0 LO:0
+--------------------------------------------------------------------------------
+ [OUTPUT DISPLAY] Time: 295000 ns | Value -> Decimal:   8 | Hex: 08
+================================================================================
+[CONTROLLER] Time: 305000 ns | State: T5 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 315000 ns | State: T6 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 325000 ns | State: T1 | Opcode: 1110
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 335000 ns | State: T2 | Opcode: 1110
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 345000 ns | State: T3 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 355000 ns | State: T4 | Opcode: 0011
+             Control Word -> CP:0 EP:0 LM:0 CE:1 LI:1 EI:0 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 365000 ns | State: T5 | Opcode: 0011
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:1 EI:1 LA:1 EA:0 LB:0 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 375000 ns | State: T6 | Opcode: 0011
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:0 EA:0 LB:1 ALU_CTRL:10 EU:1 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 385000 ns | State: T1 | Opcode: 0011
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 395000 ns | State: T2 | Opcode: 0011
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 405000 ns | State: T3 | Opcode: 0011
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 415000 ns | State: T4 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:1 LB:1 ALU_CTRL:00 EU:0 LO:0
+--------------------------------------------------------------------------------
+ [OUTPUT DISPLAY] Time: 415000 ns | Value -> Decimal:  16 | Hex: 10
+================================================================================
+[CONTROLLER] Time: 425000 ns | State: T5 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 435000 ns | State: T6 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 445000 ns | State: T1 | Opcode: 1110
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 455000 ns | State: T2 | Opcode: 1110
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 465000 ns | State: T3 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 475000 ns | State: T4 | Opcode: 0100
+             Control Word -> CP:0 EP:0 LM:0 CE:1 LI:1 EI:0 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 485000 ns | State: T5 | Opcode: 0100
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:1 EI:1 LA:1 EA:0 LB:0 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 495000 ns | State: T6 | Opcode: 0100
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:0 EA:0 LB:1 ALU_CTRL:11 EU:1 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 505000 ns | State: T1 | Opcode: 0100
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 515000 ns | State: T2 | Opcode: 0100
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 525000 ns | State: T3 | Opcode: 0100
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 535000 ns | State: T4 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:1 LB:1 ALU_CTRL:00 EU:0 LO:0
+--------------------------------------------------------------------------------
+ [OUTPUT DISPLAY] Time: 535000 ns | Value -> Decimal:   4 | Hex: 04
+================================================================================
+[CONTROLLER] Time: 545000 ns | State: T5 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 555000 ns | State: T6 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 565000 ns | State: T1 | Opcode: 1110
+             Control Word -> CP:0 EP:1 LM:0 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 575000 ns | State: T2 | Opcode: 1110
+             Control Word -> CP:1 EP:0 LM:1 CE:1 LI:1 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 585000 ns | State: T3 | Opcode: 1110
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:0 EI:1 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 595000 ns | State: T4 | Opcode: 0100
+             Control Word -> CP:0 EP:0 LM:0 CE:1 LI:1 EI:0 LA:1 EA:0 LB:1 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+[CONTROLLER] Time: 605000 ns | State: T5 | Opcode: 0100
+             Control Word -> CP:0 EP:0 LM:1 CE:0 LI:1 EI:1 LA:1 EA:0 LB:0 ALU_CTRL:00 EU:0 LO:1
+--------------------------------------------------------------------------------
+⚠️  Program HALTED due to DIVISION BY ZERO ERROR at 605000 ns
+Final Display Value:   4
+================================================================================
