@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../../../Xilinx_2025/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../src/accumulator.v" \
+"../../../../../src/alu.v" \
+"../../../../../src/b_register.v" \
+"../../../../../src/controller.v" \
+"../../../../../src/div.v" \
+"../../../../../src/ir.v" \
+"../../../../../src/mar.v" \
+"../../../../../src/mul.v" \
+"../../../../../src/out_register.v" \
+"../../../../../src/pc.v" \
+"../../../../../src/ram.v" \
+"../../../../../src/sap1_top.v" \
+"../../../../../tb/sap1_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

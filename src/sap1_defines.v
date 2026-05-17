@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 `define LDA 4'b0000 // Load memory value into A [cite: 118]
 `define ADD 4'b0001 // Add memory value to A [cite: 118]
 `define SUB 4'b0010 // Subtract memory value from A [cite: 118]

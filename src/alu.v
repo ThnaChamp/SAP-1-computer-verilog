@@ -1,10 +1,12 @@
-// ไฟล์: alu.v
+`timescale 1ns / 1ps
+
 module alu (
     input wire [1:0] alu_ctrl,       
     input wire eu,            
     input wire [7:0] a_data,  
     input wire [7:0] b_data,  
-    output wire [7:0] w_bus  
+    output wire [7:0] w_bus,
+    output wire div_err       // Division by zero error signal
 );
 
     wire [7:0] add_sub_out;
@@ -16,6 +18,18 @@ module alu (
     wire [7:0] b_com = b_data ^ {8{su}}; 
     assign add_sub_out = a_data + b_com + su;
 
+    mul u_multiplier (
+        .M(a_data),
+        .Q(b_data),
+        .result(mul_out)
+    );
+
+    div u_divider (
+        .dividend(a_data),
+        .divisor(b_data),
+        .quotient(div_out),
+        .div_zero_err(div_err)
+    );
 
     always @(*) begin
         case (alu_ctrl)

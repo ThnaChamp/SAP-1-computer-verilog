@@ -1,16 +1,20 @@
-// ไฟล์: ram.v
+`timescale 1ns / 1ps
+
 module ram (
-    input wire [3:0] address, 
-    input wire ce_n,       
-    output wire [7:0] w_bus  
+    input wire [3:0] address,   // recieve address from mar
+    input wire ce,              // chip enable 
+    output wire [7:0] w_bus     // send the value from memory to W-Bus
 );
 
+    // variable 8-bit, 16 rows (Array)
     reg [7:0] memory [0:15];
 
+    // read file .mem
     initial begin
-        // ใ่ส่ data ใน memory
+        $readmemb("program.mem", memory);
     end
 
-    assign w_bus = (!ce_n) ? memory[address] : 8'bz;
+    // ce == 0: send value from memory[address] to W-Bus
+    assign w_bus = (!ce) ? memory[address] : 8'bz;
 
 endmodule

@@ -1,29 +1,31 @@
+`timescale 1ns / 1ps
+
 // ไฟล์: ir.v
 module ir (
-    input wire clk,
-    input wire clr,
-    input wire li,          // สัญญาณ Load IR (Active-low)
-    input wire ei,          // สัญญาณ Enable IR (Active-low)
-    input wire [7:0] w_bus,   // รับข้อมูล 8 บิตจาก W-Bus
-    output wire [3:0] opcode, // สายตรงส่ง Opcode ไปให้ Control Unit เสมอ
-    output wire [7:0] ir_out  // สายส่ง Address กลับลง W-Bus (ใช้ Tri-state)
+    input wire clk,             // clock
+    input wire clr,             // clear
+    input wire li,              // load IR
+    input wire ei,              // enable IR
+    input wire [7:0] w_bus,     // recieve value from W-Bus
+    output wire [3:0] opcode,   // send value to Controll Unit
+    output wire [7:0] ir_out    // send address back to W-Bus
 );
 
-    reg [7:0] ir_data;
+    reg [7:0] ir_data;          // variable 8 bit
 
     always @(posedge clk or negedge clr) begin
         if (!clr) begin
             ir_data <= 8'b0000_0000;
+        
+        // li == 0: copy value from W-Bus
         end else if (!li) begin
             ir_data <= w_bus;
         end
     end
 
-    // แยก 4 บิตบน (บิตที่ 7 ถึง 4) ส่งไปให้ Control Unit ตลอดเวลา
+    // seperate the 4 upper bit (bits 7 -> 4) and sent to Control Unit
     assign opcode = ir_data[7:4];
 
-    // Tri-state buffer: ถ้า Ei_n เป็น 0 ให้ส่ง 4 บิตล่างลง W-Bus
-    // ข้อควรระวัง: เราดึงบัสลงแค่ 4 บิตล่าง ส่วน 4 บิตบนเราต้องปล่อยลอย ('z') เอาไว้
+    // ei == 0: 'z' + 4 lower bit (bits 4 -> 0) sent to W-Bus
     assign ir_out = (!ei) ? {4'bz, ir_data[3:0]} : 8'bz;
-
 endmodule
